@@ -4,7 +4,7 @@ For our IST 664 coursework, we developed a *Deep Learning Algorithm* for Sentenc
 
 Sentence Boundary Detection (SBD), also known as sentence tokenization, is a problem in Natural Language Processing (NLP) of deciding the begin and endpoints of a sentence. Sentence boundary identification is often challenging. For example, punctuation marks can often become ambiguous while identifying.
 
-**Dataset:** We have used Brown Corpus for our data which we have obtained using *NLTK*. The corpus contains 500 samples of English language text, totaling around *One Million words*. It is compiled from works published in the United States in 1961. 
+**Dataset:** We have used Brown Corpus for our data which we have obtained using *NLTK*. The corpus contains 500 samples of English language text, totaling around **One Million words**. It is compiled from works published in the United States in 1961. 
 
 **Python Libraries:** *Tensorflow, Tensorboard, Numpy, NLTK*
 
@@ -31,4 +31,4 @@ Here, we have used multiple deep learning models for the comparison and developm
 
 We trained our model using the Training Graph which depicts the *ePoch value* against the *Training Loss time*. We also made use of the Validation Accuracy graph showing the accuracy of the model when implemented on validation data. It depicted the ePoch value against Validation Accuracy. 
 
-Conclusion: The final accuracy obtained was **98.57%** for the CBHG model. CBHG Model gives us approximately the same accuracy when compared to other models like LSTM, BI-LSTM, and CNN.
+Conclusion: The **final accuracy** obtained was **98.57%** for the CBHG model. CBHG Model gives us approximately the same accuracy when compared to other models like LSTM, BI-LSTM, and CNN.
